@@ -1,0 +1,23 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicaps/fizzbuzz.git"
+  },
+  "keywords": [],
+  "author": "Monica Portillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicaps/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/monicaps/fizzbuzz#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
