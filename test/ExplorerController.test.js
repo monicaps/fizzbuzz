@@ -13,4 +13,8 @@ describe("Pruebas Unitarias para la clase ExplorerController", () =>{
         const resp3=ExplorerController.getExplorersAmountByMission("node");
         expect(resp3).toBeDefined();
     });
+    test("Validando controlador para asignacion de trick", () => {
+        const resp4=ExplorerController.applyValidationInNumber(15);
+        expect(resp4).toBeDefined();
+    });
 });
