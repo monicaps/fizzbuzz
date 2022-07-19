@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "node ./node_modules/.bin/jest",
     "linter": "node ./node_modules/eslint/bin/eslint.js .",
     "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
   },
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/monicaps/fizzbuzz#readme",
   "devDependencies": {
     "eslint": "^8.19.0",
-    "jest": "^28.1.2"
+    "jest": "^28.1.3"
   },
   "dependencies": {
     "express": "^4.18.1"
