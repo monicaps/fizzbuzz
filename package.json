@@ -21,7 +21,7 @@
   "homepage": "https://github.com/monicaps/fizzbuzz#readme",
   "devDependencies": {
     "eslint": "^8.19.0",
-    "jest": "^26.0.0"
+    "jest": "^27.5.1"
   },
   "dependencies": {
     "express": "^4.18.1"
